@@ -10,6 +10,8 @@ Under the repository name, click Clone or download.
 To clone the repository using HTTPS, under "Clone with HTTPS", click . ...
 Open .
 Change the current working directory to the location where you want the cloned directory to be made.
+
+When you finish, open de html in your browser and enjoy!
 ## How to run
 Push R to Reset the game
 Push the direction arrows to move Link.
