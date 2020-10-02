@@ -4,14 +4,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yerell The game</title>
+  <title>The Legend of Zelda. Frogger Edition</title>
+  <link rel="icon" type="assets/gif" href="assets/trifuerza.gif" />
   <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="frogger.js" defer></script>
 </head>
 
 <body>
-  <h1>The game</h1>
-  <script src="./scripts/index.js"></script>
+  <h1>TheLegend of Zelda. Frogger Edition</h1>
+  <H3>Pulsa R para resetear tu partida.</H3>
+  <div id="container">
+  </div>
+  <div class="container">
+    <canvas id="froggerCanvas"></canvas>
+  </div>
+  <div class="imagesContainer">
+    <img id="imgStartEnd" src="assets/tileStartEnd.png" alt="">
+    <img id="imgMiddle" src="assets/tileMiddle.png" alt="">
+    <img id="imgRoad" src="assets/tileRoad.png" alt="">
+    <img id="imgRiver" src="assets/tileRiver.png" alt="">
+    <img id="imgLilipad" src="assets/entLilipad.png" alt="">
+    <img id="imgCar" src="assets/entCar.png" alt="">
+    <img id="imgFrog" src="assets/entFrog.png" alt="">
+  </div>
+
+  <audio src="assets/Overworld Theme.mp3" id="music" autoplay="true"></audio>
 </body>
+
 
 </html>

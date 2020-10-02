@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: green;
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#froggerCanvas {
+    border: 8px double black;
+    width: 700px;
+    height: 700px;
+}
+
+.imagesContainer {
+    display: none;
+}
+
+.audio {
+  
+  display:none
+
+ }
